@@ -1,0 +1,316 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+
+body {
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background: black;
+  color: #999;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+#insidetrash {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:7;
+  display:none;
+  position: fixed;
+
+}
+
+#insidedownload {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:7;
+  display:none;
+  position: fixed;
+
+}
+
+
+.closedownload {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  right:50%;
+}
+
+.closedownload:hover,
+.closedownload:focus {
+  color: white;
+  text-decoration: none;
+  cursor:pointer;
+  z-index:8;
+}
+
+
+
+
+
+.closetrash {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  right:50%;
+}
+
+.closetrash:hover,
+.closetrash:focus {
+  color: white;
+  text-decoration: none;
+  cursor:pointer;
+  z-index:8;
+}
+
+.carousel-control-prev {
+  margin-left: -10vw;
+}
+
+.carousel-control-next {
+  margin-right: -10vw;
+}
+
+#partepapa {
+  color:black;
+     font-family: 'ClearfaceStd-Regular';
+}
+
+#dear {
+  color:black;
+  font-family: 'ClearfaceStd-Regular';
+}
+
+#servizio1{
+  font-family: 'ApercuPro';
+}
+
+#finalpart {
+  font-family: 'ApercuPro';
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+#mex {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+#mexstatico {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+  display:none;
+}
+
+
+#trash {
+
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+#calendar {
+
+  position: absolute;
+  left: 80%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+
+#download {
+
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+
+
+
+#myVideo {
+  left: 50%;
+  height: 80vh;
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:10;
+}
+
+#myvideo:focus, #myvideo:active {
+outline: none;
+box-shadow: none;
+background: black;
+}
+
+
+
+#closebuttonvideo {
+  left: 7%;
+  position: absolute;
+  top: 10%;
+  font-size: 5vh;
+  transform: translate(-50%, -50%);
+  z-index:11;
+  color:white;
+  background-color: black;
+  border: none;
+  font-family: 'ApercuPro';
+}
+
+#backsupport {
+
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  z-index:9;
+}
+
+#accetto {
+  background-color: rgb(255, 255, 255);
+  font-family: 'ApercuPro';
+  color:black;
+  border: 2px solid black;
+}
+
+
+#accetto:hover {
+  background-color: rgb(0, 0, 0);
+  font-family: 'ApercuPro';
+  color: white;
+  border: 2px solid black;
+}
+
+#accetto:focus {
+
+   outline: none !important;
+   box-shadow: none;
+}
+
+.containervideo:hover {
+  outline: none;
+}
+
+#myvideo:focus {
+  outline: none;
+}
+
+#closebuttonvideo:focus {
+  outline:none;
+}
+
+#nonaccetto {
+  background-color: rgb(204, 0, 0);
+  border: transparent;
+}
+
+/* homeloader è lo sfondo della schermata post video*/
+/*
+.homeloader {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+}
+
+*/
+
+
+
+
+.cursor {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: solid 2px rgb(255, 255, 255);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+          transform: translate(-50%, -50%) rotate(0deg);
+  -webkit-transition: width 0.3s linear, height 0.3s linear, border-width 0.1s linear, -webkit-transform 0.3s linear;
+  transition: width 0.3s linear, height 0.3s linear, border-width 0.1s linear, -webkit-transform 0.3s linear;
+  transition: width 0.3s linear, height 0.3s linear, border-width 0.1s linear, transform 0.3s linear;
+  transition: width 0.3s linear, height 0.3s linear, border-width 0.1s linear, transform 0.3s linear, -webkit-transform 0.3s linear;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cursor {
+    border: transparent;
+  }
+}

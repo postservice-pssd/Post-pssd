@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ApercuPro';
+  src: url('ApercuPro.eot');
+  src: url('ApercuPro.eot?#iefix') format('embedded-opentype'),
+       url('ApercuPro.svg#ApercuPro') format('svg'),
+       url('ApercuPro.ttf') format('truetype'),
+       url('ApercuPro.woff') format('woff'),
+       url('ApercuPro.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ClearfaceStd-Regular';
+  src: url('ClearfaceStd-Regular.eot');
+  src: url('ClearfaceStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ClearfaceStd-Regular.svg#ClearfaceStd-Regular') format('svg'),
+       url('ClearfaceStd-Regular.ttf') format('truetype'),
+       url('ClearfaceStd-Regular.woff') format('woff'),
+       url('ClearfaceStd-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
